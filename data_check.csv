@@ -1,0 +1,955 @@
+category,article,
+Social engineering,"Social engineering has proven to be a very successful way for a criminal to ""get inside"" your organization. Once a social engineer has a trusted employee's password, he can simply log in and snoop around for sensitive data. With an access card or code in order to physically get inside a facility, the criminal can access data, steal assets or even harm people.
+
+ a penetration tester walks through how he used current events, public information available on social network sites, and a $4 Cisco shirt he purchased at a thrift store to prepare for his illegal entry. The shirt helped him convince building reception and other employees that he was a Cisco employee on a technical support visit. Once inside, he was able to give his other team members illegal entry as well. He also managed to drop several malware-laden USBs and hack into the company's network, all within sight of other employees. 
+
+You don't need to go thrift store shopping to pull off a social engineering attack, though. They work just as well over e-mail, the phone, or social media. What all of the attacks have in common is that they use human nature to their advantage, preying on our greed, fear, curiosity, and even our desire to help others.
+
+Criminals will often take weeks and months getting to know a place before even coming in the door or making a phone call. Their preparation might include finding a company phone list or org chart and researching employees on social networking sites like LinkedIn or Facebook.
+
+1. On the phone
+A social engineer might call and pretend to be a fellow employee or a trusted outside authority (such as law enforcement or an auditor).
+2. In the office
+""Can you hold the door for me? I don't have my key/access card on me."" How often have you heard that in your building? While the person asking may not seem suspicious, this is a very common tactic used by social engineers.
+3. Online
+Social networking sites have made social engineering attacks easier to conduct. Today's attackers can go to sites like LinkedIn and find all of the users that work at a company and gather plenty of detailed information that can be used to further an attack. 
+Social engineers also take advantage of breaking news events, holidays, pop culture, and other devices to lure victims. In Woman loses $1,825 to mystery shopping scam posing as BestMark, Inc. you see how criminals leveraged the name of a known mystery shopping company to conduct their scam. Scammers often use fake charities to further their criminal goals around the holidays. 
+Offer something sweet. As any con artist will tell you, the easiest way to scam a mark is to exploit their own greed. This is the foundation of the classic Nigerian 419 scam, in which the scammer tries to convince the victim to help get supposedly ill-gotten cash out of their own country into a safe bank, offering a portion of the funds in exchange. These ""Nigerian prince"" emails have been a running joke for decades, but they're still an effective social engineering technique that people fall for: in 2007 the treasurer of a sparsely populated Michigan county gave $1.2 million in public funds to such a scammer in the hopes of personally cashing in. Another common lure is the prospect of a new, better job, which apparently is something far too many of us want: in a hugely embarassing 2011 breach, the security company RSA was compromised when at least two low-level employees opened a malware file attached to a phishing email with the file name ""2011 recruitment plan.xls.""
+ 
+Fake it till you make it. One of the simplest — and surprisingly most successful — social engineering techniques is to simply pretend to be your victim. In one of Kevin Mitnick's legendary early scams, he got access to Digital Equipment Corporation's OS development servers simply by calling the company, claiming to be one of their lead developers, and saying he was having trouble logging in; he was immediately rewarded with a new login and password. This all happened in 1979, and you'd think things would've improved since then, but you'd be wrong: in 2016, a hacker got control of a U.S. Department of Justice email address and used it to impersonate an employee, coaxing a help desk into handing over an access token for the DoJ intranet by saying it was his first week on the job and he didn't know how anything worked.
+ 
+Many organizations do have barriers meant to prevent these kinds of brazen impersonations, but they can often be circumvented fairly easily. When Hewlett-Packard in hired private investigators to find out which HP board members were leaking info to the press in 2005, they were able to supply the PIs with the last four digits of their targets' social security number — which AT&T's tech support accepted as proof of ID before handing over detailed call logs.
+ 
+Act like you're in charge. Most of us are primed to respect authority — or, as it turns out, to respect people who act like they have the authority to do what they're doing. You can exploit varying degrees of knowledge of a company's internal processes to convince people that you have the right to be places or see things that you shouldn't, or that a communication coming from you is really coming from someone they respect. For instance, in 2015 finance employees at Ubiquiti Networks wired millions of dollars in company money to scam artists who were impersonating company executives, probably using a lookalike URL in their email address. On the lower tech side, investigators working for British tabloids in the late '00s and early '10s often found ways to get access to victims' voicemail accounts by pretending to be other employees of the phone company via sheer bluffing; for instance, one PI convinced Vodafone to reset actress Sienna Miller's voicemail PIN by calling and claiming to be ""John from credit control.""
+ 
+Sometimes it's external authorities whose demands we comply with without giving it much thought. Hillary Clinton campaign honcho John Podesta had his email hacked by Russian spies in 2016 when they sent him a phishing email disguised as a note from Google asking him to reset his password. By taking action that he thought would secure his account, he actually gave his login credentials away.
+ 
+Social engineering prevention
+Security awareness training is the number one way to prevent social engineering. Employees should be aware that social engineering exists and be familiar with the most commonly used tactics. 
+ 
+Fortunately, social engineering awareness lends itself to storytelling. And stories are much easier to understand and much more interesting than explanations of technical flaws. Quizzes and attention-grabbing or humorous posters are also effective reminders about not assuming everyone is who they say they are.
+ 
+But it isn't just the average employee who needs to be aware of social engineering. Senior leadership and executives are primary enterprise targets. 
+ 
+5 tips for defending against social engineering
+CSO contributor Dan Lohrmann offers the following advice:
+ 
+1. Train and train again when it comes to security awareness. 
+Ensure that you have a comprehensive security awareness training program in place that is regularly updated to address both the general phishing threats and the new targeted cyberthreats. Remember, this is not just about clicking on links.
+ 
+2. Provide a detailed briefing “roadshow” on the latest online fraud techniques to key staff. 
+Yes, include senior executives, but don’t forget anyone who has authority to make wire transfers or other financial transactions. Remember that many of the true stories involving fraud occur with lower-level staff who get fooled into believing an executive is asking them to conduct an urgent action — usually bypassing normal procedures and/or controls.
+ 
+3. Review existing processes, procedures and separation of duties for financial transfers and other important transactions.
+Add extra controls, if needed. Remember that separation of duties and other protections may be compromised at some point by insider threats, so risk reviews may need to be reanalyzed given the increased threats.
+ 
+4. Consider new policies related to “out of band” transactions or urgent executive requests. 
+An email from the CEO’s Gmail account should automatically raise a red flag to staff, but they need to understand the latest techniques being deployed by the dark side. You need authorized emergency procedures that are well-understood by all.
+ 
+5. Review, refine and test your incident management
+ 
+ 
+5. Review, refine and test your incident management and phishing reporting systems.
+Run a tabletop exercise with management and with key personnel on a regular basis. Test controls and reverse-engineer potential areas of vulnerability.
+ 
+Social engineering toolkit
+A number of vendors offer tools or services to help conduct social engineering exercises, and/or to build employee awareness via means such as posters and newsletters.
+ 
+Also worth checking out is social-engineer.org's Social Engineering Toolkit, which is a free download. The toolkit helps automate penetration testing via social engineering, including spear phishing attacks, creation of legitimate-looking websites, USB drive-based attacks, and more.
+ 
+Another good resource is The Social Engineering Framework.
+ 
+Currently, the best defense against social engineering attacks is user education and layers of technological defenses to better detect and respond to attacks. Detection of key words in emails or phone calls can be used to weed out potential attacks, but even those technologies will probably be ineffective in stopping skilled social engineers. 
+2. Toyota, 2019
+Toyota Boshoku Corporation, an auto parts supplier, was the victim of a social engineering and BEC (Business Email Compromise) attack in 2019. The money lost amounts to USD 37 million. Using persuasion, attackers persuaded a finance executive to change recipient’s bank account information in a wire transfer.
+ 
+3. Cabarrus County, 2018
+Due to a social engineering and BEC scam, Cabarrus County, in the United States, suffered a loss of USD 1.7 million in 2018. Using malicious emails, hackers impersonated county suppliers and requested payments to a new bank account. According to the investigation, after the money was transferred, it was diverted to several accounts. In the emails, the scammers presented apparently legitimate documentation.
+ 
+By the way, have you checked our list of 10 real and famous cases of BEC (Business Email Compromise)?
+ 
+4. Ethereum Classic, 2017
+Several people lost thousands of dollars in cryptocurrency after the Ethereum Classic website was hacked, in 2017. Using social engineering, hackers impersonated the owner of Classic Ether Wallet, gained access to the domain registry, and then redirected the domain to their own server. Criminals extracted Ethereum cryptocurrency from the victims after entering a code on the website that allowed them to view private keys that are used for transactions.
+ 
+5. Democratic Party, 2016
+One of the most iconic cases of social engineering is the United States presidential election in 2016. Spear phishing attacks led to the leak of emails and information from the Democratic Party that may have influenced the result of the election, with Donald Trump’s victory over Hillary Clinton. Hackers created a fake email from Gmail, inviting users, through a link, to change their passwords due to unusual activity. Fraudsters then had access to hundreds of emails containing sensitive information about the Clinton campaign.
+ 
+6. Ubiquiti Networks, 2015
+Ubiquiti Networks, a manufacturer of technology for networking, lost almost $40 million dollars, in 2015, after a phishing attack. It’s believed that an employee email account was compromised in Hong Kong. Then, hackers used the technique of employee impersonation to request fraudulent payments, which were made by the accounting department.
+ 
+Check our 7 tips on how to identify and detect malicious emails and be aware!
+7. Sony Pictures, 2014
+After an investigation, the FBI pointed out that the cyberattack on Sony Pictures, in 2014, was the responsibility of the North Korea government. Thousands of files, including business agreements, financial documents and employees’ information, were stolen. Sony Pictures was targeted by spear phishing attacks. It appears employees were lured by fake Apple emails.
+ 
+8. Target, 2013
+As a result of the Target data breach, in 2013, hackers gained access to 40 million customers’ payment information. Through a phishing email, criminals installed a malware on a Target partnering company, which allowed them, in a second moment, to access the network of the second-largest department store retailer in the United States. Hackers then installed another malware on Target’s system to copy customers’ credit and debit card information. What can we learn from this attack? Be very cautious with companies and partners that have access to your network.
+ 
+9. South Carolina Department of Revenue, 2012
+Hackers stole millions of Social Security numbers and thousands of credit and debit card information from the South Carolina Department Revenue, in 2012. Employees fell into phishing scams, sharing their usernames and passwords with criminals. After that, with credentials in hands, the hackers gained access to the state agency’s network.
+ 
+10. RSA, 2011
+It’s estimated that the RSA, a security company, has spent about $66 million because of its data breach, in 2011. The attack started with an Excel document, sent to a small group of employees via email. The email subject said something like “Recruitment Plan”. The attachment contained a malicious file which opened a backdoor for the hackers.
+ 
+How to prevent social engineering incidents
+As seen in the examples, social engineering is based on the fact that the attacker gains the victim’s trust. For this reason, it’s important to pay attention to emails, check attachments and links, and be suspicious of urgent orders that mainly involve money.
+ 
+Technology is also in your favor. Gatefy provides different email protection solutions for companies. For example, we’ve a secure email gateway solution and an anti-fraud solution (based on DMARC) that will help your business to fight social engineering attacks, phishing, and other threats.
+Social engineering is a set of approaches of applied
+social sciences, or applied sociology, focused on
+purposeful change of organizational structures that
+determine human behavior and provide control over it
+[1].
+Social engineering is closely related to the field of
+human-machine interaction psychology [10, 11]. The
+positive aspect of the applied nature of social
+engineering is to increase the effectiveness of the control
+function in the human-machine interaction system. The
+result of the control function is commonly understood as
+an increase in labor productivity and computer
+performance. The negative aspect is the use of social
+engineering techniques to manipulate the patterns of
+human behavior and obtain the result by
+ 
+ 
+The given results fit into the logic of the modern
+approach to social engineering and its global distribution
+- they are beyond the scope of management of corporate
+risk caused by the social engineer actions and the impact
+assessment on the psychology of the individual. It has
+been possible by shifting the focus from the object of
+social engineering to the subject - directly to the social
+engineer and the harmful nature of his actions.
+Consequently, the proposed solutions can be applied for
+assessing the threat of social engineering in the context
+of the vulnerability of the human factor, but without 
+ 
+ 
+ 
+Placing risks on the map (Figure 1) in accordance
+with the parameters of “probability” and “impact” is the
+final step of building a risk map and, at the same time,
+the starting point for the beginning of the operational
+risk management process.
+As the risk map shows, the greatest threat to information
+security is created by the actions of a social engineer,
+activating the human factor and associated with the
+active actions of an object that has fallen under the
+influence of a social engineer. Above all at zone of risk
+is the protection of information access, the owner
+(holder) of which is the object of manipulation itself. If
+there is an element between the social engineer and data
+access where the human factor is minimized, then such
+risk situations are shown on the map below the risk
+tolerance limit. Such an element can be an authorized
+access system, a system of distributed access rights, a
+storage system, data updates, a data coding system, and
+so on. With respect to such risks, the information
+security system provides for the operation of algorithms
+that limit the capabilities of the social engineer or the
+effect of its impact. Although for this group of risks, the
+influence
+ 
+",
+Data Breach," 
+To define data breach: a data breach exposes confidential, sensitive, or protected information to an unauthorized person. The files in a data breach are viewed and/or shared without permission. Anyone can be at risk of a data breach — from individuals to high-level enterprises and governments.
+Data breaches represent a permanent threat to all types of organizations. Although the types of breaches are different, the impacts are always the same. This paper focuses on analyzing over 9000 data breaches made public since 2005 that led to the loss of 11,5 billion individual records which have a significant financial and technical impact. Also, since the most devastating breaches are hacking breaches, we shed the light on type to unveil the most targeted organizations, and examine how the interest of hackers changes over time. On the other hand, the breaches caused by human factor are decreasing which can be explained by the awareness of employees and the application of security standards. This study would improve the state of knowledge about hacking breaches and help in securing organizations’ data by prioritizing the most attacked sectors
+ 
+ 
+by the establishment of a team responsible for contacting victims and investigating the system’s breaches. Indirect
+costs also relate to the loss of capital and customers. As shown in IBM’s 2018 Cost of a Data Breach Study [5], the
+United States has the highest indirect cost per person: $152. Canada has the highest direct cost per person at $86.
+For organizations, suffering a data breach or being targeted by a data breach is a major challenge. This is why to face
+this kind of threat it is necessary to have an eye on certain parameters such as the frequency of occurrence of attacks,
+the size of breaches, the trends of attacks (most targeted organisms) and the most harmful methods. In this paper, we
+focus on data breaches reported mainly in the United States but also in Asia and Europe. This analysis includes a total
+of about 9,000 breaches involving organizations in different sectors. Our objective is to provide a more detailed view
+of the most targeted sectors as well as the trends and occurrence of attacks. This type of exploratory analysis could be
+insightful for insurance companies to measure the damage caused by these breaches but also gives a foundation for
+future comparisons and serves as a basis for proactive measures within industry and organizations. Through this work
+we wish to guide security managers towards the prevention of targeted hacking breaches via presenting a study on the
+impact of this type of attacks. We provide a thorough analysis of the encountered breaches over time by highlighting
+the evolution trends, the financial impact and the most organizations at risk.
+The rest of the paper is organized according to the following plan: Section we give an overview of related work.
+Section 3 gives global analysis of the data breaches that occurred from 2005 to end 2018 where we motivate the
+choice of focusing on hacking breaches in this work. In section 4 we will analyze and discuss hacking breaches and
+we conclude the present paper in section 
+ 
+2 represents the top 10 events that caused the most data breaches in terms of record numbers. It can be
+seen that seven of the ten events selected are hacking breaches. Those breaches were the most devastating and target
+big companies such as Yahoo, Myspace and Marriott International. We can therefore see that, in addition to being in
+full evolution since 2013, hacking breaches are also the ones that have the biggest impact in terms of volume of stolen
+data, hence the importance of analyzing them in greater depth. Majority of breaches are financially motivated, however
+attacks do not necessarily target the richest or best-known organisms, but those that are not prepared to attacks like
+medical organisms or BSOs. According to the IBM report [2], the average cost per lost or stolen record is $148. Based
+on this we can say that over the top 10 breaches, hacking breaches have had significant economic repercussions. the
+loss resulting from Yahoo’s hacking breach is estimated at $444 billion, for example, wich is more than twice the size
+of the largest disclosure breach ($202 billion).
+ 
+To define data breach: a data breach exposes confidential, sensitive, or protected information to an unauthorized person. The files in a data breach are viewed and/or shared without permission.
+ 
+Anyone can be at risk of a data breach — from individuals to high-level enterprises and governments. More importantly, anyone can put others at risk if they are not protected.
+ 
+In general, data breaches happen due to weaknesses in:
+ 
+Technology
+User behavior
+As our computers and mobile devices get more connective features, there are more places for data to slip through. New technologies are being created faster than we can protect them.
+ 
+Devices in the IoT sector are proof that we are increasingly valuing convenience over security.
+ 
+Many “smart home” products have gaping flaws, like lack of encryption, and hackers are taking advantage.
+ 
+Since new digital products, services, and tools are being used with minimal security testing, we’ll continue to see this problem grow.
+ 
+However, even if the backend technology was set up perfectly, some users will likely still have poor digital habits. All it takes is one person to compromise a website or network.
+ 
+Without comprehensive security at both the user and enterprise levels, you are almost guaranteed to be at risk.
+ 
+Protecting yourself and others starts with understanding how a data breach occurs.
+ 
+How do Data Breaches happen?
+The assumption is that a data breach is caused by an outside hacker, but that's not always true.
+ 
+Reasons for how data breaches happen might sometimes be traced back to intentional attacks. However, it can just as easily result from a simple oversight by individuals or flaws in a company’s infrastructure.
+ 
+Here’s how a data breach can occur:
+ 
+An Accidental Insider. An example would be an employee using a co-worker's computer and reading files without having the proper authorization permissions. The access is unintentional, and no information is shared. However, because it was viewed by an unauthorized person, the data is considered breached.
+A Malicious Insider. This person purposely accesses and/or shares data with the intent of causing harm to an individual or company. The malicious insider may have legitimate authorization to use the data, but the intent is to use the information in nefarious ways.
+Lost or Stolen Devices. An unencrypted and unlocked laptop or external hard drive — anything that contains sensitive information — goes missing.
+Malicious Outside Criminals. These are hackers who use various attack vectors to gather information from a network or an individual.
+ 
+ 
+Although a data breach can be the result of an innocent mistake, real damage is possible if the person with unauthorized access steals and sells Personally Identifiable Information (PII) or corporate intellectual data for financial gain or to cause harm.
+ 
+Malicious criminals tend to follow a basic pattern: targeting an organization for a breach takes planning. They research their victims to learn where the vulnerabilities are, such as missing or failed updates and employee susceptibility to phishing campaigns.
+ 
+Hackers learn a target's weak points, then develop a campaign to get insiders to mistakenly download malware. Sometimes they go after the network directly.
+ 
+Once inside, malicious criminals have the freedom to search for the data they want — and lots of time to do it, as the average breach takes more than five months to detect.
+ 
+Common vulnerabilities targeted by malicious criminals include the following:
+ 
+Weak credentials. The vast majority of data breaches are caused by stolen or weak credentials. If malicious criminals have your username and password combination, they have an open door into your network. Because most people reuse passwords, cybercriminals can use brute force attacks to gain entrance to email, websites, bank accounts, and other sources of PII or financial information.
+Stolen credentials. Breaches caused by
+phishing
+ 
+are a major security issue and if cyber criminals get hold of this Personal information, they can use it to access things like your bank and online accounts.
+Compromised assets. Various
+malware attacks
+ 
+are used to negate regular authentication steps that would normally protect a computer.
+Payment Card Fraud. Card skimmers attach to gas pumps or ATMs and steal data whenever a card is swiped.
+Third-party access. Although you may do everything possible to keep your network and data secure, malicious criminals could use third-party vendors to make their way into your system.
+Mobile Devices. When employees are allowed to bring their own devices (BYOD) into the workplace, it's easy for unsecured devices to download malware-laden apps that give hackers to data stored on the device. That often includes work email and files as well as the owner's PII.
+ 
+ 
+ 
+ 
+Compromised assets. Various
+malware attacks
+ 
+are used to negate regular authentication steps that would normally protect a computer.
+Payment Card Fraud. Card skimmers attach to gas pumps or ATMs and steal data whenever a card is swiped.
+Third-party access. Although you may do everything possible to keep your network and data secure, malicious criminals could use third-party vendors to make their way into your system.
+Mobile Devices. When employees are allowed to bring their own devices (BYOD) into the workplace, it's easy for unsecured devices to download malware-laden apps that give hackers to data stored on the device. That often includes work email and files as well as the owner's PII.
+The damage a Data Breach can do
+In many cases, data breaches cannot just be patched up with some password changes. The effects of a data leak can be a lasting issue for your reputation, finances, and more.
+ 
+For business organizations: a data breach can have a devastating effect on an organization's reputation and financial bottom line. Organizations such as Equifax, Target, and Yahoo, for example, have been the victims of a data breach. And today, many people associate/remember those companies for the data breach incident itself, rather than their actual business operations.
+ 
+For government organizations: compromised data can mean exposing highly confidential information to foreign parties. Military operations, political dealings, and details on essential national infrastructure can pose a major threat to a government and its citizens.
+ 
+For individuals: identity theft is a major threat to data breach victims. Data leaks can reveal everything from social security numbers to banking information. Once a criminal has these details, they can engage in all types of fraud under your name. Theft of your identity can ruin your credit, pin you with legal issues, and it is difficult to fight back against.
+ 
+While these are common cases, the harm done by data breaches can extend far beyond these situations. So, it is essential that you investigate whether your data has already been exposed. To find out if your personal or work accounts have been compromised use https://haveibeenpwned.com/ to check (this tool checks existing data breaches for your email address and reports what was leaked).
+ 
+You might want more comprehensive monitoring to know in real-time if your data has leaked. Products like Kaspersky Security Cloud offer data leak detection and help you navigate the situation.
+ 
+Of course, the best way to protect yourself is to avoid being a victim in the first place. No security plan is perfect, but there are ways you can defend yourself — whether you’re an individual or an enterprise.
+ 
+ 
+Patching and updating software as soon as options are available.
+High-grade encryption for sensitive data.
+Upgrading devices when the software is no longer supported by the manufacturer.
+Enforcing BYOD security policies, like requiring all devices to use a business-grade VPN service and antivirus protection.
+Enforcing strong credentials and multi-factor authentication to encourage better user cybersecurity practices. Encouraging users to start using a password manager can help.
+Educating employees on best security practices and ways to avoid socially engineered attacks.
+",
+phishing,"What is a phishing attack
+Phishing is a type of social engineering attack often used to steal user data, including login credentials and credit card numbers. It occurs when an attacker, masquerading as a trusted entity, dupes a victim into opening an email, instant message, or text message. The recipient is then tricked into clicking a malicious link, which can lead to the installation of malware, the freezing of the system as part of a ransomware attack or the revealing of sensitive information.
+ 
+An attack can have devastating results. For individuals, this includes unauthorized purchases, the stealing of funds, or identify theft.
+ 
+Moreover, phishing is often used to gain a foothold in corporate or governmental networks as a part of a larger attack, such as an advanced persistent threat (APT) event. In this latter scenario, employees are compromised in order to bypass security perimeters, distribute malware inside a closed environment, or gain privileged access to secured data.
+ 
+An organization succumbing to such an attack typically sustains severe financial losses in addition to declining market share, reputation, and consumer trust. Depending on scope, a phishing attempt might escalate into a security incident from which a business will have a difficult time recovering.
+ 
+Phishing attack examples
+The following illustrates a common phishing scam attempt:
+ 
+A spoofed email ostensibly from myuniversity.edu is mass-distributed to as many faculty members as possible.
+The email claims that the user’s password is about to expire. Instructions are given to go to myuniversity.edu/renewal to renew their password within 24 hours.
+ 
+ 
+ 
+Several things can occur by clicking the link. For example:
+ 
+The user is redirected to myuniversity.edurenewal.com, a bogus page appearing exactly like the real renewal page, where both new and existing passwords are requested. The attacker, monitoring the page, hijacks the original password to gain access to secured areas on the university network.
+The user is sent to the actual password renewal page. However, while being redirected, a malicious script activates in the background to hijack the user’s session cookie. This results in a reflected XSS attack, giving the perpetrator privileged access to the university network.
+Phishing techniques
+Email phishing scams
+Email phishing is a numbers game. An attacker sending out thousands of fraudulent messages can net significant information and sums of money, even if only a small percentage of recipients fall for the scam. As seen above, there are some techniques attackers use to increase their success rates.
+ 
+For one, they will go to great lengths in designing phishing messages to mimic actual emails from a spoofed organization. Using the same phrasing, typefaces, logos, and signatures makes the messages appear legitimate.
+ 
+In addition, attackers will usually try to push users into action by creating a sense of urgency. For example, as previously shown, an email could threaten account expiration and place the recipient on a timer. Applying such pressure causes the user to be less diligent and more prone to error.
+ 
+Lastly, links inside messages resemble their legitimate counterparts, but typically have a misspelled domain name or extra subdomains. In the above example, the myuniversity.edu/renewal URL was changed to myuniversity.edurenewal.com. Similarities between the two addresses offer the impression of a secure link, making the recipient less aware that an attack is taking place.
+ 
+Spear phishing
+Spear phishing targets a specific person or enterprise, as opposed to random application users. It’s a more in-depth version of phishing that requires special knowledge about an organization, including its power structure.
+ 
+An attack might play out as follows:
+ 
+A perpetrator researches names of employees within an organization’s marketing department and gains access to the latest project invoices.
+Posing as the marketing director, the attacker emails a departmental project manager (PM) using a subject line that reads, Updated invoice for Q3 campaigns. The text, style, and included logo duplicate the organization’s standard email template.
+A link in the email redirects to a password-protected internal document, which is in actuality a spoofed version of a stolen invoice.
+The PM is requested to log in to view the document. The attacker steals his credentials, gaining full access to sensitive areas within the organization’s network.
+By providing an attacker with valid login credentials, spear phishing is an effective method for executing the first stage of an APT.
+ 
+How to prevent phishing
+Phishing attack protection requires steps be taken by both users and enterprises.
+ 
+For users, vigilance is key. A spoofed message often contains subtle mistakes that expose its true identity. These can include spelling mistakes or changes to domain names, as seen in the earlier URL example. Users should also stop and think about why they’re even receiving such an email.
+ 
+For enterprises, a number of steps can be taken to mitigate both phishing and spear phishing attacks:
+ 
+Two-factor authentication (2FA) is the most effective method for countering phishing attacks, as it adds an extra verification layer when logging in to sensitive applications. 2FA relies on users having two things: something they know, such as a password and user name, and something they have, such as their smartphones. Even when employees are compromised, 2FA prevents the use of their compromised credentials, since these alone are insufficient to gain entry.
+In addition to using 2FA, organizations should enforce strict password management policies. For example, employees should be required to frequently change their passwords and to not be allowed to reuse a password for multiple applications.
+Educational campaigns can also help diminish the threat of phishing attacks by enforcing secure practices, such as not clicking on external email links.
+ 
+Phishing protection from Imperva
+Imperva offers a combination of access management and web application security solutions to counter phishing attempts:
+ 
+Imperva Login Protect lets you deploy 2FA protection for URL addresses in your website or web application. This includes addresses having URL parameters or AJAX pages, where 2FA protection is normally harder to implement. The solution can be deployed in seconds with just a few clicks of a mouse. It doesn’t require any hardware or software installation and enables easy management of user roles and privileges directly from your Imperva dashboard.
+Working within the cloud, Imperva Web Application Firewall (WAF) blocks malicious requests at the edge of your network. This includes preventing malware injection attempts by compromised insiders in addition to reflected XSS attacks deriving from a phishing episode.
+ 
+ 
+Scammers use email or text messages to trick you into giving them your personal information. They may try to steal your passwords, account numbers, or Social Security numbers. If they get that information, they could gain access to your email, bank, or other accounts. Scammers launch thousands of phishing attacks like these every day — and they’re often successful. The FBI’s Internet Crime Complaint Center reported that people lost $57 million to phishing schemes in one year.
+ 
+Scammers often update their tactics, but there are some signs that will help you recognize a phishing email or text message.
+ 
+Phishing emails and text messages may look like they’re from a company you know or trust. They may look like they’re from a bank, a credit card company, a social networking site, an online payment website or app, or an online store.
+ 
+Phishing emails and text messages often tell a story to trick you into clicking on a link or opening an attachment. They may
+ 
+say they’ve noticed some suspicious activity or log-in attempts
+claim there’s a problem with your account or your payment information
+say you must confirm some personal information
+include a fake invoice
+want you to click on a link to make a payment
+say you’re eligible to register for a government refund
+offer a coupon for free stuff
+Here’s a real world example of a phishing email.
+ 
+Imagine you saw this in your inbox. Do you see any signs that it’s a scam? Let’s take a look.
+ 
+The email looks like it’s from a company you may know and trust: Netflix. It even uses a Netflix logo and header.
+The email says your account is on hold because of a billing problem.
+The email has a generic greeting, “Hi Dear.” If you have an account with the business, it probably wouldn’t use a generic greeting like this.
+The email invites you to click on a link to update your payment details.
+While, at a glance, this email might look real, it’s not. The scammers who send emails like this one do not have anything to do with the companies they pretend to be. Phishing emails can have real consequences for people who give scammers their information. And they can harm the reputation of the companies they’re spoofing.
+ 
+How To Protect Yourself From Phishing Attacks
+Your email spam filters may keep many phishing emails out of your inbox. But scammers are always trying to outsmart spam filters, so it’s a good idea to add extra layers of protection. Here are four steps you can take today to protect yourself from phishing attacks.
+ 
+Four Steps To Protect Yourself From Phishing
+1. Protect your computer by using security software. Set the software to update automatically so it can deal with any new security threats.
+ 
+2. Protect your mobile phone by setting software to update automatically. These updates could give you critical protection against security threats.
+ 
+3. Protect your accounts by using multi-factor authentication. Some accounts offer extra security by requiring two or more credentials to log in to your account. This is called multi-factor authentication. The additional credentials you need to log in to your account fall into two categories:
+ 
+Something you have — like a passcode you get via an authentication app or a security key.
+Something you are — like a scan of your fingerprint, your retina, or your face.
+Multi-factor authentication makes it harder for scammers to log in to your accounts if they do get your username and password.
+ 
+4. Protect your data by backing it up. Back up your data and make sure those backups aren’t connected to your home network. You can copy your computer files to an external hard drive or cloud storage. Back up the data on your phone, too.
+ 
+What To Do if You Suspect a Phishing Attack
+If you get an email or a text message that asks you to click on a link or open an attachment, answer this question: Do I have an account with the company or know the person that contacted me?
+ 
+If the answer is “No,” it could be a phishing scam. Go back and review the tips in How to recognize phishing and look for signs of a phishing scam. If you see them, report the message and then delete it.
+ 
+If the answer is “Yes,” contact the company using a phone number or website you know is real. Not the information in the email. Attachments and links can install harmful malware.
+ 
+What To Do if You Responded to a Phishing Email
+If you think a scammer has your information, like your Social Security, credit card, or bank account number, go to IdentityTheft.gov. There you’ll see the specific steps to take based on the information that you lost.
+ 
+If you think you clicked on a link or opened an attachment that downloaded harmful software, update your computer’s security software. Then run a scan.
+ 
+How To Report Phishing
+If you got a phishing email or text message, report it. The information you give can help fight the scammers.
+ 
+Step 1. If you got a phishing email, forward it to the Anti-Phishing Working Group at reportphishing@apwg.org. If you got a phishing text message, forward it to SPAM (7726).
+ 
+Step 2. Report the phishing attack to the FTC at ReportFraud.ftc.gov.
+ 
+Tagged with: cyber security, phishing, scam
+ 
+ 
+Imagine you saw this in your inbox. Do you see any signs that it’s a scam? Let’s take a look.
+ 
+The email looks like it’s from a company you may know and trust: Netflix. It even uses a Netflix logo and header.
+The email says your account is on hold because of a billing problem.
+The email has a generic greeting, “Hi Dear.” If you have an account with the business, it probably wouldn’t use a generic greeting like this.
+The email invites you to click on a link to update your payment details.
+While, at a glance, this email might look real, it’s not. The scammers who send emails like this one do not have anything to do with the companies they pretend to be. Phishing emails can have real consequences for people who give scammers their information. And they can harm the reputation of the companies they’re spoofing.
+ 
+How To Protect Yourself From Phishing Attacks
+Your email spam filters may keep many phishing emails out of your inbox. But scammers are always trying to outsmart spam filters, so it’s a good idea to add extra layers of protection. Here are four steps you can take today to protect yourself from phishing attacks.
+ 
+Four Steps To Protect Yourself From Phishing
+1. Protect your computer by using security software. Set the software to update automatically so it can deal with any new security threats.
+ 
+2. Protect your mobile phone by setting software to update automatically. These updates could give you critical protection against security threats.
+ 
+3. Protect your accounts by using multi-factor authentication. Some accounts offer extra security by requiring two or more credentials to log in to your account. This is called multi-factor authentication. The additional credentials you need to log in to your account fall into two categories:
+ 
+Something you have — like a passcode you get via an authentication app or a security key.
+Something you are — like a scan of your fingerprint, your retina, or your face.
+Multi-factor authentication makes it harder for scammers to log in to your accounts if they do get your username and password.
+ 
+4. Protect your data by backing it up. Back up your data and make sure those backups aren’t connected to your home network. You can copy your computer files to an external hard drive or cloud storage. Back up the data on your phone, too.
+ 
+What To Do if You Suspect a Phishing Attack
+If you get an email or a text message that asks you to click on a link or open an attachment, answer this question: Do I have an account with the company or know the person that contacted me?
+ 
+If the answer is “No,” it could be a phishing scam. Go back and review the tips in How to recognize phishing and look for signs of a phishing scam. If you see them, report the message and then delete it.
+ 
+If the answer is “Yes,” contact the company using a phone number or website you know is real. Not the information in the email. Attachments and links can install harmful malware.
+ 
+What To Do if You Responded to a Phishing Email
+If you think a scammer has your information, like your Social Security, credit card, or bank account number, go to IdentityTheft.gov. There you’ll see the specific steps to take based on the information that you lost.
+ 
+If you think you clicked on a link or opened an attachment that downloaded harmful software, update your computer’s security software. Then run a scan.
+ 
+How To Report Phishing
+If you got a phishing email or text message, report it. The information you give can help fight the scammers.
+ 
+Step 1. If you got a phishing email, forward it to the Anti-Phishing Working Group at reportphishing@apwg.org. If you got a phishing text message, forward it to SPAM (7726).
+ 
+Step 2. Report the phishing attack to the FTC at ReportFraud.ftc.gov.
+ 
+Tagged with: cyber security, phishing, scam
+ 
+ 
+""Phish"" is pronounced just like it's spelled, which is to say like the word ""fish"" — the analogy is of an angler throwing a baited hook out there (the phishing email) and hoping you bite. The term arose in the mid-1990s among hackers aiming to trick AOL users into giving up their login information. The ""ph"" is part of a tradition of whimsical hacker spelling, and was probably influenced by the term ""phreaking,"" short for ""phone phreaking,"" an early form of hacking that involved playing sound tones into telephone handsets to get free phone calls.
+ 
+Nearly a third of all breaches in the past year involved phishing, according to the 2019 Verizon Data Breach Investigations Report. For cyber-espionage attacks, that number jumps to 78%. The worst phishing news for 2019 is that its perpetrators are getting much, much better at it thanks to well-produced, off-the-shelf tools and templates.
+ 
+Some phishing scams have succeeded well enough to make waves:
+ 
+Perhaps one of the most consequential phishing attacks in history happened in 2016, when hackers managed to get Hillary Clinton campaign chair John Podesta to offer up his Gmail password.
+The ""fappening"" attack, in which intimate photos of a number of celebrities were made public, was originally thought to be a result of insecurity on Apple's iCloud servers, but was in fact the product of a number of successful phishing attempts.
+In 2016, employees at the University of Kansas responded to a phishing email and handed over access to their paycheck deposit information, resulting in them losing pay.
+What is a phishing kit?
+The availability of phishing kits makes it easy for cyber criminals, even those with minimal technical skills, to launch phishing campaigns. A phishing kit bundles phishing website resources and tools that need only be installed on a server. Once installed, all the attacker needs to do is send out emails to potential victims. Phishing kits as well as mailing lists are available on the dark web. A couple of sites, Phishtank and OpenPhish, keep crowd-sourced lists of known phishing kits.
+ 
+Some phishing kits allow attackers to spoof trusted brands, increasing the chances of someone clicking on a fraudulent link. Akamai's research provided in its Phishing--Baiting the Hook report found 62 kit variants for Microsoft, 14 for PayPal, seven for DHL, and 11 for Dropbox.  
+ 
+[ Download CIO's new Roadmap Report on 5G in the enterprise! ]
+The Duo Labs report, Phish in a Barrel, includes an analysis of phishing kit reuse. Of the 3,200 phishing kits that Duo discovered, 900 (27%) were found on more than one host. That number might actually be higher, however. “Why don’t we see a higher percentage of kit reuse? Perhaps because we were measuring based on the SHA1 hash of the kit contents. A single change to just one file in the kit would appear as two separate kits even when they are otherwise identical,” said Jordan Wright, a senior R&D engineer at Duo and the report’s author.
+ 
+ 
+Analyzing phishing kits allows security teams to track who is using them. “One of the most useful things we can learn from analyzing phishing kits is where credentials are being sent. By tracking email addresses found in phishing kits, we can correlate actors to specific campaigns and even specific kits,” said Wright in the report. “It gets even better. Not only can we see where credentials are sent, but we also see where credentials claim to be sent from. Creators of phishing kits commonly use the ‘From’ header like a signing card, letting us find multiple kits created by the same author.”
+ 
+Types of phishing
+If there's a common denominator among phishing attacks, it's the disguise. The attackers spoof their email address so it looks like it's coming from someone else, set up fake websites that look like ones the victim trusts, and use foreign character sets to disguise URLs.
+ 
+That said, there are a variety of techniques that fall under the umbrella of phishing. There are a couple of different ways to break attacks down into categories. One is by the purpose of the phishing attempt. Generally, a phishing campaign tries to get the victim to do one of two things:
+ 
+Hand over sensitive information. These messages aim to trick the user into revealing important data — often a username and password that the attacker can use to breach a system or account. The classic version of this scam involves sending out an email tailored to look like a message from a major bank; by spamming out the message to millions of people, the attackers ensure that at least some of the recipients will be customers of that bank. The victim clicks on a link in the message and is taken to a malicious site designed to resemble the bank's webpage, and then hopefully enters their username and password. The attacker can now access the victim's account.
+Download malware. Like a lot of spam, these types of phishing emails aim to get the victim to infect their own computer with malware. Often the messages are ""soft targeted"" — they might be sent to an HR staffer with an attachment that purports to be a job seeker's resume, for instance. These attachments are often .zip files, or Microsoft Office documents with malicious embedded code. The most common form of malicious code is ransomware — in 2017 it was estimated that 93% of phishing emails contained ransomware attachments.
+Phishing emails can be targeted in several different ways. As we noted, sometimes they aren't targeted at all; emails are sent to millions of potential victims to try to trick them into logging in to fake versions of very popular websites. Ironscales has tallied the most popular brands that hackers use in their phishing attempts. 
+ 
+Of the 50,000-plus fake login pages the company monitored, these were the top brands attackers used:
+ 
+PayPal: 22%
+Microsoft: 19%
+Facebook: 15%
+eBay: 6%
+Amazon: 3%
+Other times, attackers might send ""soft targeted"" emails at someone playing a particular role in an organization, even if they don't know anything about them personally. Some phishing attacks aim to get login information from, or infect the computers of, specific people. Attackers dedicate much more energy to tricking those victims, who have been selected because the potential rewards are quite high.
+ 
+Spear phishing
+ 
+When attackers try to craft a message to appeal to a specific individual, that's called spear phishing. (The image is of a fisherman aiming for one specific fish, rather than just casting a baited hook in the water to see who bites.) Phishers identify their targets (sometimes using information on sites like LinkedIn) and use spoofed addresses to send emails that could plausibly look like they're coming from co-workers. For instance, the spear phisher might target someone in the finance department and pretend to be the victim's manager requesting a large bank transfer on short notice.
+ 
+Whaling
+ 
+Whale phishing, or whaling, is a form of spear phishing aimed at the very big fish — CEOs or other high-value targets. Many of these scams target company board members, who are considered particularly vulnerable: they have a great deal of authority within a company, but since they aren't full-time employees, they often use personal email addresses for business-related correspondence, which doesn't have the protections offered by corporate email.
+ 
+Gathering enough information to trick a really high-value target might take time, but it can have a surprisingly high payoff. In 2008, cybercriminals targeted corporate CEOs with emails that claimed to have FBI subpoenas attached. In fact, they downloaded keyloggers onto the executives' computers — and the scammers' success rate was 10%, snagging almost 2,000 victims.
+ 
+Other types of phishing include clone phishing, vishing, snowshoeing. This article explains the differences between the various types of phishing attacks.
+ 
+Why phishing increases during a crisis
+Criminals rely on deception and creating a sense of urgency to achieve success with their phishing campaigns. Crises such as the coronavirus pandemic give those criminals a big opportunity to lure victims into taking their phishing bait.
+ 
+During a crisis, people are on edge. They want information and are looking for direction from their employers, the government, and other relevant authorities. An email that appears to be from one of these entities and promises new information or instructs recipients to complete a task quickly will likely receive less scrutiny than prior to the crisis. An impulsive click later, and the victim's device is infected or account is compromised.
+ 
+The following screen capture is a phishing campaign discovered by Mimecast that attempts to steal login credentials of the victim's Microsoft OneDrive account. The attacker knew that with more people working from home, sharing of documents via OneDrive would be common.
+ 
+The next two screens are from phishing campaigns identified by Proofpoint. The first asks victims to load an app on their device to ""run simulations of the cure"" for COVID-19. The app, of course, is malware. The second appears to be from Canada's Public Health Agency and asks recipients to click on a link to read an important letter. The link goes to a malicious document.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+",
+sql injection,"due to the various Web server vulnerabilities and procedure of the rigor leads to a Web server script for attacks was increasing, its are mostly through the ASP or PHP scripting injection such as a major attack means, plus Web site rapid expansion of today, based on both the SQL injection also slowly become the mainstream way. Attack SQL injection is to use the insert harmful character attack technology. The attacker using programmers to user input data legitimacy detection not strictly or not detection characteristics, deliberately in a different way from client submit special code to manipulate data, thus collection procedures and server information, obtain the desired information. This paper briefly introduces the concept of SOL injection attack and principle, and the realization process of SQL injection attack, and on this basis describes how to detect SQL injection attack, summarizes the general SQL injection attack prevention methods. And the ASP website platform system injection attack prevention technology examples are analyzed, make prevent SQL injection technology in the practical application of web security system plays a better, more effectively resist hackers and other malicious damage.
+
+Because of various Web server vulnerabilities and procedure of not strict, the cause for Web
+server script attacks was increasing, its are mostly through the ASP or PHP scripting injection such as a
+major attack means, plus Web station quantity development is rapid, based on SQL injection attack has
+become the mainstream of the attack, while the Web server compilation process prevalent the
+scriptwriter ignore program code safety testing phenomenon, resulting in a large number of providing
+interactive operation loopholes in the Web server, including at least 70% of SQL injection site exists,
+the defects of malicious users can use the server, database configuration the defects and elaborate
+structure of illegal statements through programs or scripts invading server obtain website administrator
+permissions and obtain the relevant database content, serious still can obtain the whole server where
+the connection system information, and ex
+
+
+With the deepening of the network applications, the Internet website quantity with amazing speed
+increase. Whether government departments, enterprises and various management agencies, through the
+website to establish various information platform for various business applications. Website is
+information release center, its database to store has a large amount of for users to share the important
+information and materials. Therefore, to ensure the normal operation of the web site, the security is
+website construction and operation process should be fully considered important issues. Although the
+Internet application scale developed rapidly, but the complexity of the network environment, and
+information system, variability of vulnerability, decide the existing computer system still does not have
+with own application development scale of corresponding security protection ability, a large number of
+online threats USES all sorts of hidden way constantly pounding network application platform.
+Network security problems are not reflected in the technical level of information counter, in actual
+social activities, threat generated more from the huge interest drive.
+(1) website unauthorized access
+Internet is an open, no control agency network, based on TCP/IP protocol Internet protocol families
+own open great place show various computer networking and interconnection and directly, and
+promoted the rapid development of Internet technology. But as in the early network protocol design
+neglect the safety, cause Internet in use and management of chaos, and gradually make the Internet
+itself of safety and security has been threatened. Hackers (Hacker) often get the chance to intrude into
+the computer on the network system, or stolen confidential data and theft privilege, or destroy the
+important data, or make the system function not fully exert until paralysis.
+Website unauthorized access to web security will be fatal, and its harm degree is the largest.
+System password simple and short, operating system of various vulnerabilities, various applications
+software defect, the default Shared folder, a large number of network application service of opening,
+safety level set too low for hackers illegal invasion will offer a convenient.
+(2) information security management
+Information security management including physical protection and application of protection.
+Physical protection referred for information in network of physical equipment installed in the physical
+environment barriers, prevent from physical lines of electromagnetic signals eavesdropping. In network
+management center, important data exchange and data storage place, according to confidential
+construction requirements, and set up standard, relatively independent network exchange center and
+important switching nodes, adopt anti-static grounding, physical shield or preventing electromagnetic
+interference and other measures to restrain data exchange of electromagnetic radiation signals, thus
+achieved the diffusion and prevent information was illegally physical eavesdropping. Application
+protection refers to the electronic information system in the application of various links shielding. At
+present in the Web server on electronic information stored in the database most in computer, in
+response to various Web application requirement, the computer storage and transmission and
+processing of electronic information, not yet as traditional email communication as the envelope
+protection and signature. Sources of information are true or not, and whether to be content, as well as
+whether leak changes etc. Are all aspects of management safety prob
+
+SOL Server system is injection attack obtain sensitive information, the major source of Server
+system and also into the connection diving-board. SOL Server Server is Microsoft company makes a
+comprehensive database management system platform, the integration of various tools and can provide
+user level, of enterprise-level data management. SQL Server Server is recognized run on Windows on
+the platform of the best database. It has a symmetric multiprocessor structure, pre-emptive multitasking
+management, perfecting the fault tolerant and restore ability. SQL Server Server is to a wide range of
+corporate clients and creating commercial application independent software vendors special design of
+C/S (client/Server) data management platform, whether in database structure, using methods and data
+management mode, fully embodies the convenience of customers and meet the needs of the user
+characteristics. Injection attack using security vulnerabilities are also much from these meet the needs
+of the user, structure and function, such as internal function 
+
+
+With C/S (client/server) model development, use this technique writing web applications will be
+more and more. Web server as now enterprise and individual information exchange, the main media
+access to any of the personnel are available to the general public, plus due to current network
+programmers safety consciousness is uneven, quite part of server code without considering the input
+information security filters, make the Web server and database server program there are serious
+security hidden danger, a malicious user can use this to obtain server front-end and back-end control
+privileges, injection attack is held the present server exist interactive interfaces characteristics, through
+the client browser submit carefully constructed deformity statement, a server interaction analytical
+processing to achieve the purpose of attack. 
+
+The injection of parameters for class 
+
+If your pages with ID = 54 of the same that additional condition was established, namely the data table
+Admin exist, conversely, does not exist. So circulates, until guessed the table name so far. The table
+name guess, will Count (*) replaced the Count (field name), use the same principle to guess solution
+fields. Finally, in the table name and listing
+
+
+SQL injection is a type of attack that can give an adversary complete control over your web application database by inserting arbitrary SQL code into a database query.
+
+The good news? SQL injection is the lowest of the low-hanging fruit for both attackers and defenders. It isn't some cutting edge NSA Shadow Brokers kit, it's so simple a three-year old can do it. This is script kiddie stuff—and fixing your web application to mitigate the risk of SQL injection is so easy that failure to do so looks more and more like gross negligence.
+
+SQL injection attacks
+There are several types of SQL injection, but they all involve an attacker inserting arbitrary SQL into a web application database query. The simplest form of SQL injection is through user input. Web applications typically accept user input through a form, and the front end passes the user input to the back-end database for processing. If the web application fails to sanitize user input, an attacker can inject SQL of their choosing into the back-end database and delete, copy, or modify the contents of the database.
+
+An attacker can also modify cookies to poison a web application's database query. Cookies store client state information locally, and web applications commonly load cookies and process that information. A malicious user, or malware, can modify cookies to inject SQL into the back-end database.
+
+Server variables such as HTTP headers can also be used as a SQL injection attack vector. Forged headers containing arbitrary SQL can inject that code into the database if the web application fails to sanitize those inputs as well.
+
+Second-order SQL injection attacks are the sneakiest of the bunch, because they aren't designed to run immediately, but much later. A developer who correctly sanitizes all their input against an immediate attack may still be vulnerable to a second-order SQLi when the poisoned data is used in a different context.
+
+[ Download CIO's new Roadmap Report on 5G in the enterprise! ]
+SQL injection tools
+SQL injection, as a technique, is older than many of the human attackers using them today; the attacks are rudimentary and have long since been automated. Tools like SQLninja, SQLmap, and Havij make it easy to test your own web applications, but also make it easy for attackers.
+
+Ten years ago, a SQL injection worm rampaged across the internet. Cut to the present: Not much has changed. Despite a widespread awareness of SQL injection as a problem, a large percentage of web applications remains vulnerable.
+
+Automated testing tools can keep you a step ahead of attackers looking for an easy payday. Pentesting your web applications with a tool like SQLmap is a quick way to see if your mitigations are adequate. SQLmap supports pretty much every major database in use today and can detect and exploit most known SQL injection vulnerabilities.
+
+Sanitize your input, but test to verify your mitigations are successful. A useful reminder: Blue team and red team are two sides to the same coin.
+
+SQL injection example
+Let's look at a basic SQL injection attack. Suppose you've built a web application that lets customers enter their customer IDs and retrieve their customer profiles. The web application front end passes the user-entered customer ID to the back-end database. The database runs an SQL query and returns the results to the web application, which displays the results to the end user.
+
+Remember, databases will happily execute multiple SQL statements in a row if separated by a semicolon. Failure to sanitize the user input for the single quote ""'"" character makes it possible for an attacker to delete the entire table. Hope you had good backups. Right? Right...?
+
+This was a deliberately simple example, and there are many different SQL injection attack vectors, but all work on the same principle: A web application's failure to sanitize input leads to remote SQL code execution.
+
+How to detect SQL injection attacks
+Mitigating SQL injection attacks is not difficult, but even the smartest and best-intentioned developers still make mistakes. Detection is therefore an important component of mitigating the risk of a SQL injection attack. A web application firewall (WAF) can detect and block basic SQL injection attacks, but you shouldn't rely on it as the sole preventive measure.
+
+Intrusion detection systems (IDS), both network- and host-based, can be tuned to detect SQL injection attacks. Network-based IDSes can monitor all connections to your database server, and flag suspicious activity. A host-based IDS can monitor web server logs and alert when something strange happens.
+
+Ultimately, though, SQL injection attacks are well-understood and easily preventable, and the priority for risk mitigation should be preventing SQL injection attacks in the first place.
+
+How to prevent SQL injection attacks
+Listen to Little Bobby Tables and sanitize your database inputs. Any input to your web application database should be considered untrustworthy and treated accordingly. And listen to the good folks from OWASP when they tell you ""It's somewhat shameful that there are so many successful SQL Injection attacks occurring, because it is EXTREMELY simple to avoid SQL injection vulnerabilities in your code."" [their emphasis]
+
+The OWASP SQL injection cheat sheet dives deeper than we ever could here, but preventing SQL injection attacks, the OWASP tell us, requires developers to whitelist input validation (not blacklisting), to use prepared statements with parameterized queries, and to escape all user-supplied input.
+
+Also limit account privileges. Assume a breach. What if a developer fails to sanitize a single user input field? Hey, it happens. Developers are only human. Sanitize input but assume something is going to slip past you. Limit the account privileges of the database user. Is your web application read only, for example? Does it need to have DROP TABLES privileges? Probably not. The principle of least privilege applies here. Give the web application the minimum privileges it needs to run.
+
+Stored procedures can also make SQLi a lot harder — although not impossible. If your web application only needs to run a handful of SQL queries, create stored procedures to execute those queries. Typically, only the database administrator has privileges to create or modify stored procedures. Be aware, though, that many databases ship with default stored procedures out of the box, and attackers know this. Consider removing those default stored procedures unless you really need them.
+
+SQL injection is the lowest of the low-hanging web application security fruit. This well-known attack vector is easily exploited by unsophisticated attackers, but it is easily mitigated with a small amount of due diligence. In 2018 there is no longer any excuse for a web application to be vulnerable to SQL injection. This is what minimum due diligence in web application security looks like, folks.
+",
+denial-of-service(DOS),"A distributed denial of service (DDoS) attack is when an attacker, or attackers, attempt to make it impossible for a service to be delivered. This can be achieved by thwarting access to virtually anything: servers, devices, services, networks, applications, and even specific transactions within applications. In a DoS attack, it’s one system that is sending the malicious data or requests; a DDoS attack comes from multiple systems.
+
+Generally, these attacks work by drowning a system with requests for data. This could be sending a web server so many requests to serve a page that it crashes under the demand, or it could be a database being hit with a high volume of queries. The result is available internet bandwidth, CPU and RAM capacity becomes overwhelmed.
+
+[ Learn 8 essential tips for DDoS protection, mitigation and defense. | Sign up for CSO newsletters. ]
+
+The impact could range from a minor annoyance from disrupted services to experiencing entire websites, applications, or even entire business taken offline.
+
+Related video: Early warning signs of a DDoS attack
+
+ types of DDoS attacks
+There are three primary classes of DDoS attacks:
+
+Volume-based attacks use massive amounts of bogus traffic to overwhelm a resource such as a website or server. They include ICMP, UDP and spoofed-packet flood attacks. The size of a volume-based attack is measured in bits per second (bps).
+Protocol or network-layer DDoS attacks send large numbers of packets to targeted network infrastructures and infrastructure management tools. These protocol attacks include SYN floods and Smurf DDoS, among others, and their size is measured in packets per second (PPS).
+Application-layer attacks are conducted by flooding applications with maliciously crafted requests. The size of application-layer attacks is measured in requests per second (RPS).
+For each type of attack, the goal is always the same: Make online resources sluggish or completely unresponsive.
+
+DDoS attack symptoms
+DDoS attacks can look like many of the non-malicious things that can cause availability issues – such as a downed server or system, too many legitimate requests from legitimate users, or even a cut cable. It often requires traffic analysis to determine what is precisely occurring.
+
+[ Download CIO's new Roadmap Report on 5G in the enterprise! ]
+A DDoS attack timeline
+It was an attack that would forever change how denial-of-service attacks would be viewed. In early 2000, Canadian high school student Michael Calce, a.k.a. MafiaBoy, whacked Yahoo! with a distributed denial of service (DDoS) attack that managed to shut down one of the leading web powerhouses of the time. Over the course of the week that followed, Calce took aim, and successfully disrupted, other such sites as Amazon, CNN and eBay.
+
+Certainly not the first DDoS attack, but that highly public and successful series of attacks transformed denial of service attacks from novelty and minor nuisance to powerful business disruptors in the minds of CISOs and CIOs forever.
+
+Since then, DDoS attacks have become an all too frequent menace, as they are commonly used to exact revenge, conduct extortion, as a means of online activism, and even to wage cyberwar.
+
+They have also gotten bigger over the years. In the mid-1990s an attack may have consisted of 150 requests per second – and it would have been enough to bring down many systems. Today they can exceed 1,000 Gbps. This has largely been fueled by the sheer size of modern botnets.
+
+In October 2016, internet infrastructure services provider Dyn DNS (Now Oracle DYN) was stuck by a wave of DNS queries from tens of millions IP addresses. That attack, executed through the Mirai botnet, infected reportedly over 100,000 IoT devices, including IP cameras and printers. At its peak, Mirai reached 400,000 bots. Services including Amazon, Netflix, Reddit, Spotify, Tumblr, and Twitter were disrupted.
+
+In early 2018 a new DDoS technique began to emerge. On February 28, the version control hosting service GitHub was hit with a massive denial of service attack, with 1.35 TB per second of traffic hitting the popular site. Although GitHub was only knocked offline intermittently and managed to beat the attack back entirely after less than 20 minutes, the sheer scale of the assault was worrying, as it outpaced the Dyn attack, which had peaked at 1.2 TB a second.
+
+An analysis of the technology that drove the attack revealed that it was in some ways simpler than other assaults. While the Dyn attack was the product of the Mirai botnet, which required malware to infest thousands of IoT devices, the GitHub attack exploited servers running the Memcached memory caching system, which can return very large chunks of data in response to simple requests.
+
+Memcached is meant to be used only on protected servers running on internal networks, and generally has little by way of security to prevent malicious attackers from spoofing IP addresses and sending huge amounts of data at unsuspecting victims. Unfortunately, thousands of Memcached servers are sitting on the open internet, and there has been a huge upsurge in their use in DDoS attacks. Saying that the servers are ""hijacked"" is barely fair, as they'll cheerfully send packets wherever they're told without asking questions.
+
+Just days after the GitHub attack, another Memecached-based DDoS assault slammed into a US service provider with 1.7 TB per second of data.
+
+
+
+The Mirai botnet was significant in that, unlike most DDoS attacks, it leveraged vulnerable IoT devices rather PCs and servers, It’s especially scary when one considers that by 2020, according to BI Intelligence, there will be 34 billion internet connected devices, and the majority (24 billion) will be IoT devices.
+
+Unfortunately, Mirai won’t be the last IoT-powered botnet. An investigation across security teams within Akamai, Cloudflare, Flashpoint, Google, RiskIQ and Team Cymru uncovered a similarly sized botnet, dubbed WireX, consisting of 100,000 compromised Android devices within 100 countries. A series of large DDoS attacks that targeted content providers and content delivery networks prompted the investigation.
+
+On June 21, 2020, Akamai reported that it had mitigated a DDoS attack on a large European bank that peaked at 809 million packets per second (Mpps), the largest ever packet volume. This attack was designed to overwhelm the network gear and applications in the target's data center by sending billions of small (29 bytes including IPv4 header) packets.
+
+Akamai researchers said that this attack was unique because of the large number of source IP addresses used. ""The number of source IPs that registered traffic to the customer destination increased substantially during the attack, indicating that it was highly distributed in nature. We saw upward of 600x the number of source IPs per minute, compared to what we normally observe for this customer destination,"" the researchers noted.
+
+DDoS attacks today
+While the volume of DDoS attacks has wavered over time, they are still a significant threat. Kaspersky Labs reports that the number of DDoS attacks for Q2 2019 increased by 32% over Q3 2018, primarily due to a spike in attacks in September. For 2020, Cloudflare reports that the volume of DDoS attacks increased every quarter except Q4, 
+
+Recently discovered botnets like Torii and DemonBot capable of launching DDoS attacks are a concern, according to Kaspersky. Torii is capable of taking over a range of IoT devices and is considered more persistent and dangerous than Mirai. DemonBot hijacks Hadoop clusters, which gives it access to more computing power.
+
+Another alarming trend is the availability of new DDoS launch platforms like 0x-booter. This DDos-as-a-service leverages about 16,000 IoT devices infected with the Bushido malware, a Mirai variant.
+
+A DDoS report from Imperva found that most DDoS attacks in 2019 were relatively small. For example, network-layer attacks typically did not exceed 50 million PPS. The report's authors attributed this to DDoS-for-hire services, which offer unlimited but small attacks. Imperva did see some very large attacks in 2019 including a network-layer attack that reached 580 million PPS and an application-layer attack that peaked at 292,000 RPS and lasted 13 days.
+
+That trend changed in Q4 2020 when Cloudflare reported a ""massive uptick"" in the number of attacks over 500Mbps and 50K pps. Those attacks also became more persistent with nearly 9% of attacks observed between October and December lasting more than 24 hours. 
+
+Cloudflare also observed what it called a ""distrubing trend"" in the increased number of RDDoS attacks in 2020, where organizations receive a threat of a DDoS attack that will disrupt their operations unless a ransom is paid. The malicious parties tend to target victims that are less able to respond and recover from such an attack.  
+
+DDoS attack tools
+Typically, DDoS attackers rely on botnets – collections of a network of malware-infected systems that are centrally controlled. These infected endpoints are usually computers and servers, but are increasingly IoT and mobile devices. The attackers will harvest these systems by identifying vulnerable systems that they can infect through phishing attacks, malvertising attacks and other mass infection techniques. Increasingly, attackers will also rent these botnets from those who built them.
+
+How DDoS attacks evolve
+As mentioned briefly above, it’s becoming more common for these attacks to be conducted by rented botnets. Expect this trend to continue.
+
+Another trend is the use of multiple attack vectors within an attack, also known as Advanced Persistent Denial-of-Service APDoS. For instance, an APDoS attack may involve the application layer, such as attacks against databases and applications as well as directly on the server. “This goes beyond simply 'flooding,'” attacks says Chuck Mackey, managing director of partner success at Binary Defense.
+
+Additionally, Mackey explains, attackers often don’t just directly target their victims but also the organizations on which they depend such as ISPs and cloud providers. “These are broad-reaching, high-impact attacks that are well-coordinated,” he says. 
+
+This is also changing the impact of DDoS attacks on organizations and expanding their risk. “Businesses are no longer merely concerned with DDoS attacks on themselves, but attacks on the vast number of business partners, vendors, and suppliers on whom those businesses rely,” says Mike Overly, cybersecurity lawyer at Foley & Lardner LLP. “One of the oldest adages in security is that a business is only as secure as its weakest link. In today’s environment (as evidenced by recent breaches), that weakest link can be, and frequently is, one of the third parties,” he says.
+
+Of course, as criminals perfect their DDoS attacks, the technology and tactics will not stand still. As Rod Soto, director of security research at JASK explains, the addition of new IoT devices, rise of machine learning and AI will all play a role in changing these attacks. “Attackers will eventually integrate these technologies into attacks as well, making it more difficult for defenders to catch up with DDoS attacks, specifically those that cannot be stopped by simple ACLs or signatures. DDoS defense technology will have to evolve in that direction as well,” Soto says.
+
+Editor's note: This article, first published in September 2017, has been updated to include current data from Cloudflare.
+DoS events are often brought about by a service's underlying systems being overloaded. We'll use a simple web-based example to clarify exactly how overload-based DoS attacks work, so let's imagine a shopping website you visit is under attack.
+
+Ordinarily, when you visit an online shopping site, your requests pass through your Internet Service Provider's network, through one or more exchanges and out, onto other providers' networks. From there your clicks pass onto the hosting service used by the shopping site, and finally onto the site's own infrastructure.
+
+Within the shopping site, a number of servers will each handle a small bit of the work needed to generate the page you see. This will include database servers that provide lists of products, application servers that interpret that product information and web servers that create the pages you are browsing.
+
+However, much like a human, each server can only do so much work in a given period. So, when too many users are requesting pages from the shopping site at one time, the site's infrastructure or servers may not be able to handle everyone's requests in a timely manner.
+
+Depending on how the shopping site is set up, this results in some or all users being unable to view the site. To put it another way, they are denied access to the service.
+
+
+Malicious DoS
+As the shopping site example suggests, a Denial of Service can be caused by perfectly legitimate use. For example, Black Friday sales, when thousands of users are clamouring for a bargain, often cause a denial of service. But they can also be malicious. In this case, an attacker purposefully tries to exhaust the site's resources, denying legitimate users access.
+
+Malicious attacks can take one of two general forms: Denial of Service (DoS) or Distributed Denial of Service (DDoS).
+
+The difference is:
+
+A Denial of Service attack uses only a small number of attacking systems (possibly just one) to overload the target. This was the most common type of attack in the early days of the Internet, where services were relatively small in scale and security technology in its infancy. However, nowadays, a simple DoS attack is often simple to deflect as the attacker is easy to identify and block. One notable exception here may be industrial control systems, where equipment may have a low tolerance to bogus traffic, or may be connected via low bandwidth links that are easily saturated.
+In a Distributed Denial of Service attack, the attacker enlists the help of (many) thousands of Internet users to each generate a small number of requests which, added together, overload the target. These participants may either be willing accomplices (such as attacks initiated by loosely organised illegal ""hactivist"" groups) or by unwitting victims whose machines have been infected with malware.
+The key difference between legitimate denial of service (eg, Black Friday browsing) and an attack is that an attack generally happens with no warning. Therefore, the service cannot plan to handle the increased load.
+
+
+Two types of overload-based denial of service attacks
+The online shopping example above explores an attack that attempts to overload the available resources of a website in order to cause a DoS condition. These overload-based DoS attacks can target different types of resource. The majority fall into one of the following two categories:
+
+Overload DoS attacks at the network layer: These DoS attacks typically attempt to consume all available capacity on network links, or to cause network hardware or software to fail due to overload.
+Overload DoS attacks at the application layer: These DoS attacks typically attempt to consume the compute resources of the service by exercising compute-expensive functionality, or by generating many more application sessions than the service has been designed to cope with.
+You can read more technical details about specific types of overload attacks and how you can reduce their impact in the Center for Internet Security's Guide to DDoS attacks.
+
+
+Other forms of denial of service attack
+DoS events can be caused by system overload, but there are other ways that an attacker may deny access to your service:
+
+Destruction of physical equipment: An attack which causes physical damage through digital means. Saudi Aramco suffered an attack of this kind which disabled tens of thousands of user workstations. But probably the best known example is Stuxnet, where malware subtly change an industrial control process in order to destroy centrifuges.
+Denying the ability to fix: An attacker may execute a denial of service attack and then purposfully disrupt your ability to resolve the issue. This may be through over-writing firmware, deleting accounts, or blocking administrative access. For example, an attacker may turn off remote process control equipment and then damage the firmware, or more subtly, update network routes in network infrastructure, to prevent administrators from being able to access equipment.
+Theft of public identifiers: An attacker may hijack your domain name, Twitter account or other essential online accounts. If using cloud services, an attacker who is able to gain access to your account can disable your infrastructure whilst preventing you from gaining access to revert any changes.
+RF interference: An attacker may use radio jamming to interfere with local WiFi or longer range wireless connections to remote sites (such as sensor installations). This type of attack carries significant risk on the attacker's part, due to their need to be physically close to the target location.
+
+Understanding attacker motivation
+Attackers may have a range of motivations when initiating a denial of service attack. These range from ""fun"" to extortion or even furthering state goals. Some objectives include:
+
+Hackers may simply find it fun to bring down a service, often to show off their skills to other hackers gaining kudos. Attacks may be carried out using ""off-the-shelf"" tools or, if an attacker is skilled, bespoke attacks may be carried out to demonstrate new techniques or tools they have developed.
+A group of 'hacktivists' will use their hacking skills for social or political goals, for example launching a DoS campaign against a company which carry out activities they do not agree with. The attackers are unlikely to be determined in this scenario and the attack likely to be short-lived. The attack is usually a DoS attack on publicly facing websites, although some groups may attempt ""web defacement"" of poorly protected servers.
+A desire to create bad publicity for an organisation with which the attacker has a grievance. The grievance may be ideological (such as animal testing or politics), or personal (disgruntled ex-staff, for example). Again, they are likely to be short-lived DoS style attacks, however a motivated attacker could persevere with the attack. You should work out the business impact of a loss of service for different periods of time.
+Organised criminals may attempt to extort money based on either the threat of a denial of service or by a short attack to prove their capability. If the adversary is able to execute such an attack, it is likely to be longer in duration and severity. Some organised crime groups may move beyond simple DoS and look to gain unauthorised access to your system, either to increase the severity of the attack or execute the attack itself.
+High capability attackers, possibly with state sponsorship or involvement are likely to attempt the most serious attacks. These may involve physical effects (such as the Ukrainian power grid failures) or be very long lasting, with a large amount of resource behind them. The objectives in this case can be diverse, but you should not presume that these attackers will only target governments. They may use denial of service attacks in order to undermine confidence in high profile services such as banking or critical infrastructure. They may also aim to undermine public confidence more generally, through attacks on household names such as retail outets, weather or broadcast services.
+Also, be aware of high capability actors using a DoS attack to distract attention from an attempt to compromise your system. Do not become so focussed on defending against a DoS attack that you ignore other security monitoring.
+",
+insider threats,"
+Insider threats remain one of the biggest issues plaguing cybersecurity. A study by Ponemon shows that the costs of insider threats leaped 31% in just two years, from $8.76 million in 2018 to $11.45 million in 2020. The same report shows that it takes companies an average of 77 days to contain an insider threat incident. Forrester predicts that insider threats will cause 31% of data breaches by the end of 2021, up from 25% in 2020.
+
+Both government and businesses are certainly aware of the issue, but the resources required to address it often outpace the IT security budgets. Insider threat prevention needs to consider lots of things: corporate infrastructure and technologies used, data stored, data sensitivity levels, data protection measures, data security and privacy mandates, and local cultural norms and labor practices.
+
+In this article, we will look at the problem carefully, starting with the types of insider threats and then discussing how security threat actors operate and how to identify and mitigate the risk.
+
+What is the insider threat?
+The insider threat is a security risk that comes from any individual with legitimate access to the organization’s information and assets. That includes anyone working or connected to a company, such as current and former employees, contractors, business associates and vendors.
+
+Handpicked related content:
+[Blog post] How to mitigate the risk of employee data theft
+Types of Insider Threats
+There are three types of insider threats: insiders who are negligent or careless; insiders with malicious intent; and hackers who become insiders by stealing legitimate system credentials.
+
+Unintentional
+Regular users and admins can both unintentionally perform actions that put the organization at risk, such as:
+
+Failing to protect their credentials
+Falling victim to common attacks like phishing or social engineering
+Falling behind on security patches and updates
+Sharing confidential information due to ignorance or disregard of data sensitivity levels
+Failing to follow security policies because they overcomplicate their jobs.
+Intentional
+Malicious insiders can purposefully take actions that benefit them but cause harm to the organization. Motivations for attacks include:
+
+Espionage — A current or former employee might use their access to a company’s systems or data to gain information, such as intellectual property or proprietary data/information, with a goal to achieve a competitive advantage.
+Revenge — A former worker or another individual holding a grudge against an organization could use their access rights to damage the company or its people, for example, by attacking important systems or stealing and publishing executives’ emails or other sensitive information.
+Profit — A malicious insider could use their access to make money, for example, by diverting funds from a company’s account or selling sensitive data.
+Compromised credentials
+Another type of malicious insider threat is a hacker who steals valid user or admin credentials to get into the corporate IT network. Credential theft costs companies $2.79 million per year, making it the most expensive form of insider threat.
+
+Hackers use different methods to steal credentials, including:
+
+Phishing emails — Individuals inside an organization receive emails disguised as legitimate business requests, often asking for information like bank routing numbers or requesting that the recipient clicks on a link to download an attachment or visit a website.
+Pass the hash — This hacking technique allows an attacker to authenticate to a remote server or service by stealing the hash of a user’s password instead of the plaintext password.
+Cracking passwords — Hackers use a variety of approaches to guess a user’s password:
+Brute-force attacks — Hackers run a program that attempts to log on using common passwords and working through every possible character combination.
+Dictionary attacks — This tactic involves working through different phrases and word strings instead of individual characters.
+Spraying attacks — Hackers use a few common passwords to attack thousands of accounts at once.
+Reverse brute-force attacks — The attackers use one password to go after multiple user accounts.
+Indicators of Insider Threat
+What do you need to watch for to detect an insider threat? Here are some common indicators:
+
+Failed or successful access to systems or data outside of working hours or without a business need
+Attempts to download or copy large amounts of data
+Use of unauthorized systems, devices and software, such as public cloud storage.
+Attempts to bypass security protocols
+Corporate policy violations
+The consequences of insider threat incidents
+Insider threats can cause severe and costly damage to an organization. Among the consequences are:
+
+Critical data loss or theft. Insiders can accidentally or deliberately destroy intellectual property, trade secrets, personal data, customer data and other critical information, wiping out years of work in an instant.
+Negative impact on organizational productivity, such as delays in vital business functions like production, operations, customer service responses, and supply chain management.
+Financial impact, including costs related to incident investigation and the remediation of systems and processes.
+Legal/regulatory impact, including fines and litigation defense costs tied to complaints from individuals and organizations affected by data breaches. For example, if a healthcare organization suffers a breach of personal health information (PHI), the affected patients are at risk of identity theft and other consequences, and the organization can be slapped with penalties by regulatory bodies.
+Loss of competitive edge. For example, a pharmaceutical company could lose years of research into a promising drug, costing them millions in potential revenue.
+Damage to reputation. It can take a long time to regain the trust of customers and shareholders.
+Tips to protect your organization against an insider threat
+The best security technology on the market isn’t enough to stop every insider attack. Organizations need a comprehensive security strategy in place that accounts for the potential of inside threats.
+
+A good strategy requires a team effort and a willingness to refine business processes, even if it means changing company culture.  Insider threat protection requires a nuanced approach. Here are the essential steps to take:
+
+Classify your data according to its value and sensitivity. It’s essential to understand which information has the most value, where it’s stored, and how it’s accessed and used. Data discovery and classification solutions can help your company find sensitive and regulated information, classify its sensitivity level, and analyze how the data gets used.
+Monitor user activity across the entire network. It’s important to understand exactly who is accessing what data and what they are doing with it. Focus on monitoring critical systems and data first, and then expand the scope as necessary. Choose a monitoring tool that doesn’t just provide raw user activity events but that uses user behavior analytics to identify suspicious or risky
+Minimize access rights and keep business accounts and personal accounts separate. Ensure that people have access to sensitive data only as necessary for their job function. Have administrators use regular user accounts for routine business functions, and grant them temporary elevated privileges as needed to complete specific tasks. Eliminating permanent admin accounts reduces the insider threat significantly.
+In addition, implement security measures like these:
+
+Establishing policies that prohibit password sharing
+Removing access to resources promptly when users change roles or leave the company
+Placing controls around third-party access
+Requiring multi-factor authentication for access to critical systems and data
+Regularly looking for and deleting unused accounts
+Maintain company-wide awareness of insider threats. Have HR teams conduct risk assessments of individuals working with privileged information. All users should regularly receive comprehensive security training about what data access and distribution activity is and isn’t allowed.
+Automate response activities. To minimize the damage an insider can do, set up automated response actions, such as temporary blocking access to data and disabling credentials that might have been compromised.
+Handpicked related content:
+Insider Threat Detection: 10 Techniques for Top-to-Bottom Defense
+
+How the Netwrix Data Security Platform can help
+The Netwrix Data Security Platform simplifies insider threat detection, investigation and response. With the solution, you can:
+
+Reduce the damage an insider could do, accidentally or deliberately, by monitoring user access rights and identifying overexposed data
+Automatically classify the data you store so you can implement appropriate controls for different types of data
+Continuously monitor the activity of regular and privileged users, and get alerts about anomalous behavior
+Detect attempts to escalate permissions
+Investigate incidents efficiently and quickly find the best response to each attack
+FAQ
+What is an insider threat?
+
+An insider threat is a user or admin account with legitimate access to company computers and data. These accounts can be misused by their owner, either accidentally or deliberately, or be compromised by outside attackers.
+
+What are some examples of insider threats?
+
+Examples of insider threats include a user who is negligent about security protocols and opens an email attachment containing malware; a malicious insider who steals data for a competitor (espionage), and a hacker who performs a brute-force attack to steal user credentials and gain access to sensitive corporate data.
+
+Why is it important to identify potential insider threats?
+
+Failing to detect insider threats can lead to data loss and system downtime. As a result, companies can face steep costs, including fines, lawsuits, incident mitigation work and reputation damage.
+
+What are some insider threat indicators?
+
+Signs of an insider threat include repeated attempts to access or download sensitive data, unusual use of data or applications, and attempts to bypass security protocols or violate corporate policies.
+
+How can I mitigate the risk of insider threats?
+
+Start by educating all employees about the potential of insider threats. Organizations should also invest in technology to classify their data and spot suspicious user behavior.
+
+Three Tips to Battle Insider Threats Remotely
+
+This last consideration is an important one. If the move to remote work has taken away organizations’ primary defense against insider threats, how can they protect themselves against the rising number of incidents? The answer lies in adopting a holistic insider threat strategy, while maintaining a commitment to building a culture where people feel connected to the company mission and confident reporting suspicious activity.
+
+Here are three best practices to help you get started:
+
+1. Customize Awareness and Training
+
+Awareness programs and training initiatives are two of the most effective ways to defend against insider threats – especially when tailored to different roles within the organization. For example, an executive may consider policies and procedures differently than an analyst, who learns differently than an engineer. On top of that, each role likely has varying levels of access to sensitive data and locations. Customizing awareness and training for each type of role in your organization can have a very powerful and positive impact on your holistic insider threat program. Utilize multiple delivery options, like short video clips, and repeat the messages over and over to reinforce good cyber hygiene practices.
+
+ 
+
+2. Prioritize Anomaly Detection with User and Entity Behavior Analytics
+
+User and Entity Behavior Analytics (UEBA) can help companies proactively identify insider risk before it becomes an actual threat. UEBA technology helps model the typical actions of individual users and machines to identify anomalous activities for further analysis and response. Without doing this important legwork up front to set proper baselines and understand employees’ usual activity, it can be hard to distinguish an insider threat from another problem (such as an outage that wasn’t properly monitored).
+
+ 
+
+3.   Show Employees You Care
+
+Above all, it’s important to remember that we’re all human. Employees may just need support, encouragement, or a friendly listener. Having supervisors and managers check-in with their direct reports on a weekly basis can be helpful for struggling employees and will demonstrate your commitment to their wellbeing. Respecting your staff’s personal lives and making sure they maintain a work/life balance are also impactful ways to show employee support.
+
+ 
+
+Employees As The Solution
+
+While employees are often behind “insider threats,” they are also your first line of defense against these attacks. The more you make employees aware of their role in security, the more responsibility they’ll take on in the fight against insider risk – regardless of whether they’re working from home or in the office. Only then will there be a chance that, this year, the percentage of insider threat incidents will decline.
+
+
+
+
+advanced persistent threats category:
+
+on a country’s information assets of national security or strategic economic importance through either cyberespionage or cybersabotage. These attacks use technology that minimizes their visibility to computer network and individual computer intrusion detection systems. APTs are directed against specific industrial, economic, or governmental targets to acquire or to destroy knowledge of international military and economic importance. (Stuxnet, for example, would fall under this definition as an APT directed against Iran.) Once an APT has entered its target, the attack can last for months or years; that is, it is a “persistent” threat. The motive behind the threat goes beyond mere political or financial gain. An APT is not hacktivism—that is, penetrating a Web site or network to make a political statement—nor is it strictly cybercrime, where the perpetrators steal information for profit alone. Rather, the aim is to gain strategic or tactical advantage in the international arena.
+
+The term advanced persistent threat originated in the U.S. Department of Defense late in the first decade of the 21st century to describe cyberespionage efforts by China against American national security interests. Attacks in 2009 against the search engine company Google and in 2011 against RSA, the security division of the information technology company EMC Corporation, brought the concept into discussions within the commercial information security community. Some authorities in that community advocated expanding the concept to include any sophisticated hacking campaign conducted against a large organization. However, other authorities strictly defined an APT as an attack on national security interests, arguing that to define it otherwise would admit almost any cyberattack as an APT and thus limit the definition’s value in developing specific countermeasures.
+
+Common targets of APTs include government agencies, defense contractors, and industries developing technologies of military or economic strategic importance, such as aerospace and computer companies. Specific items for data exfiltration (the stealing of knowledge) include e-mail archives, document stores, intellectual property containing trade secrets, and databases containing classified or proprietary information. Examples of targeted documents are product designs, supplier lists, research lab notes, and testing results.
+
+Methods of attack include “spear phishing” and the distribution of “zero-day malware.” Spear phishing uses e-mails sent to selected employees within an organization. The e-mails appear to come from trusted or known sources. Either by clicking on links within the e-mail or by being persuaded by the e-mail’s seeming legitimacy to let their guard down, these employees let hostile programs enter their computers. Zero-day malware is hostile computer software, such as viruses or Trojan horses, that is not yet detectable by antivirus programs. Networks of already compromised computers, known as “botnets,” distribute these zero-day attacks. Neither of the methods is new, and they are not exclusive to APTs. Their use against national security assets, however, is indicative of an APT attack rather than conventional hacking.
+
+Get a Britannica Premium subscription and gain access to exclusive content.
+Subscribe Now
+APT attacks are by nature stealthy and may use software that is more sophisticated than common “off-the-shelf” hacking tools found on the Internet. Their footprint on a computer or network is relatively small, and APTs try to operate below the detection level of an intrusion-detection system. Discovering the APT, however, is still possible through close monitoring of traffic on a network. Identifying communications between the botnet master (the control point) and the implanted malware reveals the compromise. This need for command-and-control activity remains the Achilles’ heel of APTs.
+
+An advanced persistent threat is an attack in which an unauthorized user gains access to a system or network and remains there for an extended period of time without being detected. Advanced persistent threats are particularly dangerous for enterprises, as hackers have ongoing access to sensitive company data. Advanced persistent threats generally do not cause damage to company networks or local machines. Instead, the goal of advanced persistent threats is most often data theft.
+
+Advanced persistent threats typically have several phases, including hacking the network, avoiding detection, constructing a plan of attack and mapping company data to determine where the desired data is most accessible, gathering sensitive company data, and exfiltrating that data.
+
+Advanced persistent threats have caused several large, costly data breaches and are known for their ability to fly under the radar, remaining undetectable by traditional security measures. What’s more, advanced persistent threats are becoming increasingly common as cyber criminals look to more sophisticated measures to achieve their goals.
+
+HOW ADVANCED PERSISTENT THREATS WORK
+Advanced persistent threats use a variety of techniques to gain initial access to a network. Attackers may use the internet as a means to deliver malware and gain access, physical malware infection, or even external exploitation to gain access to protected networks.
+
+These attacks are different from many traditional threats, such as viruses and malware that exhibit the same behavior consistently and are repurposed for attacking different systems or companies. Advanced persistent threats do not take a general, broad approach; instead, they are carefully planned and designed with the goal of attacking one specific company or organization. Therefore, advanced persistent threats are highly customized and sophisticated, designed specifically to get around the existing security measures in place within a company.
+
+Often, trusted connections are used to gain initial access. This means attackers may use employees’ or business partners’ credentials obtained through phishing attacks or other malicious means. This aids attackers in the important goal of remaining undetected long enough to map the organization’s systems and data and devise a strategic plan of attack to harvest company data.
+
+Malware is critical to the success of an advanced persistent threat. Once the network is breached, malware has the capability to hide from certain detection systems, navigate the network from system to system, obtain data, and monitor network activity. The ability for attackers to control an advanced persistent threat remotely is also key, enabling criminals to navigate throughout the organization’s network to identify critical data, gain access to the desired information, and initiate the extrapolation of data.
+
+GO DEEPER
+
+Insider Threat Protection
+
+WARNING SIGNS OF AN ADVANCED PERSISTENT THREAT
+Advanced persistent threats are, by nature, difficult to detect. In fact, these types of attacks rely on their ability to remain undetected in order to carry out their mission. However, there are some key indicators that your company may be experiencing an advanced persistent threat attack:
+
+An increase in log-ins late at night, or when these employees typically wouldn’t be accessing the network.
+Discovering widespread backdoor Trojans. Backdoor Trojans are commonly used by attackers attempting an advanced persistent threat in order to ensure they can retain access, even if a user whose login credentials have been compromised discovers the breach and changes his or her credentials.
+Large, unexpected flows of data. Look for large flows of data from internal origins to internal or external computers. These flows should be distinguishable from your company’s typical baseline.
+Discovering unexpected data bundles. Attackers carrying out an advanced persistent threat attack often aggregate data inside the network before attempting to move the data outside of the network. These data bundles are often discovered where data would not be typically stored within the company, and are sometimes packaged in archive formats the company wouldn’t typically use.
+Detecting pass-the-hash attacks. These attacks, which steal password hashes from password-hash-storage databases or memory to create new, authenticated sessions, are not always used in advanced persistent threats. However, discovering them within your company’s network is a sure sign that further investigation is needed.
+Advanced persistent threats, once used primarily to target high-profile organizations or companies with high-value data, are now becoming more common among smaller and less-prominent companies. As attackers are turning to more sophisticated methods of attack, companies of all sizes must look to implement equally rigorous security measures capable of detecting and responding to these threats.
+",
